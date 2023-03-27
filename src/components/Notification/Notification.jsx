@@ -9,6 +9,6 @@ export function Notification({ message }) {
   );
 }
 
-Notification.PropType = {
+Notification.propTypes = {
   message: PropType.string.isRequired,
 };
